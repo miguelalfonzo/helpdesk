@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <link rel="shortcut icon" type="image/x-icon" href="img/help_desk.ico" />
-        <title>Helps Desk V1.0.0</title>
+        <title>Help Desk V1.0.0</title>
         <link href="{{ asset('vendors/bootstrap/dist/css/bootstrap.min.css') }}" rel="stylesheet">
         <link href="{{ asset('css/all.css') }}" rel="stylesheet">
         <link href="{{ asset('vendors/nprogress/nprogress.css') }}" rel="stylesheet">
