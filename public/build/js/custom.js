@@ -2107,9 +2107,22 @@ function init_SmartWizard() {
         transitionEffect: 'slide'
     });
 
-    $('.buttonNext').addClass('btn btn-primary');
-    $('.buttonPrevious').addClass('btn btn-primary');
-    $('.buttonFinish').addClass('btn btn-danger');
+    // $('.buttonNext').addClass('btn btn-primary');
+    // $('.buttonPrevious').addClass('btn btn-primary');
+    // $('.buttonFinish').addClass('btn btn-danger');
+
+    $('.buttonNext').addClass('btn').css({
+        background: "#3483C5",
+        color: "#fff"
+    });
+    $('.buttonPrevious').addClass('btn').css({
+        background: "#3483C5",
+        color: "#fff"
+    });
+    $('.buttonFinish').addClass('btn').css({
+        background: "#3483C5",
+        color: "#fff"
+    });
 
 };
 

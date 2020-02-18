@@ -6,7 +6,7 @@
     }
 </style>
 <div class="title_left">
-    <h3>Solicitud de Soporte.</h3>
+    <h3 style="color :#3483C5">Solicitud de Soporte.</h3>
 </div>
 @if( Auth::user()->cayro == 1 )
     <div class="alert alert-primary" role="alert">
@@ -26,10 +26,10 @@
     <div class="gruposTicket animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <a id="btnTicketsRegistrados" href="" class="botonResumen" titulo="Tickets Registrados" EstadoTickes="1">
             <div class="tile-stats">
-                <div class="icon"><i class="far fa-folder-open"></i>
+                <div class="icon"><i class="far fa-folder-open" style="color:#47A2EF"></i>
                 </div>
                 <div class="count"><span id="TicketsAbiertos"> 0 </span></div>
-                <h3>Registrados</h3>
+                <h3 style="color :#3483C5">Registrados</h3>
                 <p>Tickets registrados.</p>
             </div>
         </a>
@@ -37,10 +37,10 @@
     <div class="gruposTicket animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <a href="" class="botonResumen" titulo="Tickets en Procesos" EstadoTickes="2">
             <div class="tile-stats">
-                <div class="icon"><i class="fas fa-users-cog"></i>
+                <div class="icon"><i class="fas fa-users-cog" style="color:#47A2EF"></i>
                 </div>
                 <div class="count"><span id="TicketsProcesos"> 0 </span></div>
-                <h3>Proceso</h3>
+                <h3 style="color :#3483C5">Proceso</h3>
                 <p>Tickets en procesos.</p>
             </div>
         </a>
@@ -48,10 +48,10 @@
     <div class="gruposTicket animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <a href="" class="botonResumen" titulo="Tickets Pausados" EstadoTickes="3">
             <div class="tile-stats">
-                <div class="icon"><i class="far fa-pause-circle"></i>
+                <div class="icon"><i class="far fa-pause-circle" style="color:#47A2EF"></i>
                 </div>
                 <div class="count"><span id="TicketsPausados"> 0 </span></div>
-                <h3>Pausados</h3>
+                <h3 style="color :#3483C5">Pausados</h3>
                 <p>Tickets pausados.</p>
             </div>
         </a>
@@ -59,10 +59,10 @@
     <div class="gruposTicket animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <a href="" class="botonResumen" titulo="Tickets Resueltos" EstadoTickes="4">
             <div class="tile-stats">
-                <div class="icon"><i class="fas fa-hourglass-half"></i>
+                <div class="icon"><i class="fas fa-hourglass-half" style="color:#47A2EF"></i>
                 </div>
                 <div class="count"><span id="TicketsTerminados"> 0 </span></div>
-                <h3>Resueltos</h3>
+                <h3 style="color :#3483C5">Resueltos</h3>
                 <p>Tickets resueltos.</p>
             </div>
         </a>
@@ -70,20 +70,20 @@
     <div class="gruposTicket animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
         <a href="" class="botonResumen" titulo="Tickets Cerrados" EstadoTickes="5">
             <div class="tile-stats">
-                <div class="icon"><i class="fas fa-ticket-alt"></i>
+                <div class="icon"><i class="fas fa-ticket-alt" style="color:#47A2EF"></i>
                 </div>
                 <div class="count"><span id="TicketsTodos"> 0 </span></div>
-                <h3>Cerrados</h3>
+                <h3 style="color :#3483C5">Cerrados</h3>
                 <p>Tickets cerrados.</p>
             </div></a>
         </div>
         <div class="gruposTicket animated flipInY col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <a href="" class="botonResumen" titulo="Tickets Anulados" EstadoTickes="6">
                 <div class="tile-stats">
-                    <div class="icon"><i class="far fa-trash-alt"></i>
+                    <div class="icon"><i class="far fa-trash-alt" style="color:#47A2EF"></i>
                     </div>
                     <div class="count"><span id="TicketsAnulados"> 0 </span></div>
-                    <h3>Anulados</h3>
+                    <h3 style="color :#3483C5">Anulados</h3>
                     <p>Tickets anulados.</p>
                 </div>
             </a>
