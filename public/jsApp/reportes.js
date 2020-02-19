@@ -63,22 +63,22 @@ $(document).on('ready', function() {
                 extend: 'copyHtml5',
                 title: '',
                 messageTop: null,
-                text: '<i class="far fa-copy"></i> Copiar '
+                text: '<i class="far fa-copy"></i> <span style="font-size:12px">Copiar</span> '
             }, {
                 extend: 'excel',
                 title: '',
                 messageTop: null,
-                text: '<i class="far fa-file-excel"></i> Excel ',
+                text: '<i class="far fa-file-excel"></i> <span style="font-size:12px">Excel</span> ',
                 exportOptions: {
                     //columns: [0, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 22, 23, 24]
                 },
                 messageTop: 'Listado de Tickets Enviados. (' + rangoFecha + ')'
             }, {
                 extend: 'csvHtml5',
-                text: '<i class="fas fa-file-csv"></i> CSV '
+                text: '<i class="fas fa-file-csv"></i> <span style="font-size:12px">CSV</span> '
             }, {
                 extend: 'pdf',
-                text: '<i class="far fa-file-pdf"></i> Pdf',
+                text: '<i class="far fa-file-pdf"></i> <span style="font-size:12px">Pdf</span>',
                 exportOptions: {
                     // modifier: {
                     //     page: 'current'
@@ -86,7 +86,7 @@ $(document).on('ready', function() {
                 }
             }, {
                 extend: 'graficos',
-                text: '<i class="fas fa-chart-area"></i> Gráfico'
+                text: '<i class="fas fa-chart-area"></i> <span style="font-size:12px">Gráfico</span>'
             }],
             "paginationType": "input",
             "sPaginationType": "full_numbers",

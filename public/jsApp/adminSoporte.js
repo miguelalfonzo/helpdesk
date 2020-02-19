@@ -6,7 +6,7 @@ $(document).on('ready', function() {
     var minAdjuntasResultados = '';
 
     CargaTablero();
-    $("#titleListadoTickets").text('Tickets Registrados');
+    $("#titleListadoTickets").text('Tickets Registrados').css("color", "#2EB2C1");
     muestraDataTables(1);
 
     function CargaTablero() {

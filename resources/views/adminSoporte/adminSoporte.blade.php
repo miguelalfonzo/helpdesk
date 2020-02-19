@@ -2,6 +2,16 @@
 @section('contenido')
 <div class="clearfix"></div>
 @include('solicitudSoporte.botones')
+<style>
+    
+    #listadoTickets table {
+  border-collapse: collapse;
+}
+
+#listadoTickets table,th,td {
+  border: 1px solid #AEF1F9;
+}
+</style>
 <div id="listadoTickets">
     <div class="clearfix"></div>
     <div class="row">
@@ -29,7 +39,8 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="x_content">
-                    <table id="TableTickets" class="table table-striped table-bordered table-hover table-condensed" style="font-size:12px;" width="100%">
+                    <table id="TableTickets"    class="table table-striped  table-hover table-condensed" style="font-size:12px
+                    " width="100%">
                         <thead>
                             <tr>
                                 <th>ID</th>
