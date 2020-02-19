@@ -155,6 +155,7 @@ $(document).on('ready', function() {
 
 function createNewCargo() {
     $('#ModalMantCargo').modal('show');
+    $('#tituloModalCargo').text('Agregar Cargo');
     $('#FormMantCargo').each(function() {
         this.reset();
     });
@@ -163,6 +164,7 @@ function createNewCargo() {
 
 function prepareUpdatedCargo(idCargo, descripcion, activo) {
     $('#ModalMantCargo').modal('show');
+    $('#tituloModalCargo').text('Actualizar Cargo');
     $('#descCargo').val(descripcion);
     $('#statusCargo').val(activo);
     $('#idCargo').val(idCargo);

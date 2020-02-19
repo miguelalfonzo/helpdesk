@@ -5,16 +5,16 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="tituloModal"></h5>
+        <h5 class="modal-title" id="tituloModalCargo"></h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <div class="panel panel-success">
+      <div class="modal-body" >
+        <div class="panel panel-success" >
             
-            <div class="panel-body">
-              <div class="row">
+            <div class="">
+              <div class="row" >
                   <input type="hidden"  name="idCargo" id="idCargo" >
                 
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group">
