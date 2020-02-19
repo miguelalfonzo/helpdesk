@@ -65,10 +65,12 @@ class correoController extends Controller
 	        $adminArea = \App\Usuarios::where('idArea',$ticket->idArea)->where('rol','ADM')->get();
 	       
 	        $configEmail = \App\Correos::on($conn)->find(1);			
-			$smtp_host_ip = gethostbyname($configEmail->smtp);
+			//$smtp_host_ip = gethostbyname($configEmail->smtp);
+			$smtp_host_ip=$configEmail->smtp;
 	        $transport = (new Swift_SmtpTransport($smtp_host_ip, $configEmail->port, $configEmail->encryption))
 	            ->setUsername($configEmail->correo)
 	            ->setPassword($configEmail->password);
+
 	        $mailer = new Swift_Mailer($transport);
 
 	        switch ($request->tipo) {
