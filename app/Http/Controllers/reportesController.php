@@ -80,7 +80,7 @@ class reportesController extends Controller
 	                $labelPrioridad = '<span class="badge badge-pill badge-danger">Alta</span>';
 	            }
 
-	            $dataSet['aaData'][] = array(   '<h6 class="text-primary">TICKETS CON ESTADO '.strtoupper($ticket->des2Tabla).'</h6>',
+	            $dataSet['aaData'][] = array(   '<h6 class="text-primary">Tickets con estado '.$ticket->des2Tabla.'</h6>',
 	            								$ticket->nroTicket,
 	            								$ticket->solicitante,
 	                                            $ticket->ejecutor,

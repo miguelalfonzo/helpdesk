@@ -6,7 +6,7 @@
     }
 </style>
 <div class="title_left">
-    <h3 style="color :#3483C5">Solicitud de Soporte.</h3>
+    <h3 style="color :#3ED8E9">Solicitud de Soporte</h3>
 </div>
 @if( Auth::user()->cayro == 1 )
     <div class="alert alert-primary" role="alert">

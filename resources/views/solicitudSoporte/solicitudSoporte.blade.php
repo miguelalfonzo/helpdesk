@@ -3,12 +3,24 @@
 <div class="clearfix"></div>
 
 @include('solicitudSoporte.botones')
+
+<style>
+    
+    #PantallaPrincipal table {
+  border-collapse: collapse;
+}
+
+#PantallaPrincipal table,th,td {
+  border: 1px solid #AEF1F9;
+}
+</style>
+
 <div class="row" id="PantallaPrincipal" >
 
     <div class="col-md-12 col-sm-12  " >
-        <div class="x_panel" style="background: #F4FEFF;">
+        <div class="x_panel" style="background: #C8E9F8;">
             <div class="x_title" >
-                <h2 style="color:#34495E"> Solicitud de Soporte Técnico</h2>
+                <h2 style="color:#167dab"> Solicitud de Soporte Técnico</h2>
                 <ul class="nav navbar-right panel_toolbox">
                     <li>
                         <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
@@ -44,7 +56,7 @@
                     <h2 id="titleListadoTickets"> </h2>
                     <ul class="nav navbar-right panel_toolbox">
                         <li>
-                            <a type="button" class="btn btn-success" id="btnRegresar"><i class="far fa-arrow-alt-circle-left"></i> Regresar</a>
+                            <a type="button" class="btn" id="btnRegresar" style="background:#3ED8E9;color:#fff"><i class="far fa-arrow-alt-circle-left"></i> Regresar</a>
                         </li>
                         <li>
                             <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
@@ -65,7 +77,7 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="x_content">
-                    <table id="TableTickets" class="table table-striped table-bordered table-hover table-condensed" style="font-size:12px;" width="100%">
+                    <table id="TableTickets" class="table table-striped table-hover table-condensed" style="font-size:12px;" width="100%">
                         <thead>
                             <tr>
                                 <th>ID</th>

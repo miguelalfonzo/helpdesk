@@ -101,7 +101,7 @@ class mantenimientoController extends Controller
             $msgCayro = $usuario->cayro == 1 ? 'Cancelar interacción como <strong>Usuario Cayro</strong>' : 'Activar interacción como <strong>Usuario Cayro</strong>';
             $okCayro = $usuario->cayro == 1 ? '<span class="badge badge-success">Ok</span>' : '';
 
-            $interactuaCayro = '<a data-accion="interactuaCayro" idUsuario="'.$usuario->id.'" statusCayro="'.$usuario->cayro.'" data-trigger="hover" data-html="true" data-toggle="popover" data-placement="top" data-content="'.$msgCayro.'" href=""><img src="'.$imgCayro.'" style="width:25px;height:25;"></a>';
+            $interactuaCayro = '<a data-accion="interactuaCayro" idUsuario="'.$usuario->id.'" statusCayro="'.$usuario->cayro.'" data-trigger="hover" data-html="true" data-toggle="popover" data-placement="top" data-content="'.$msgCayro.'" href=""><img src="'.$imgCayro.'" style="width:15px;height:15;"></a>';
 
             $dataSet['aaData'][] = array(  $usuario->id,
                                            $usuario->name,

@@ -1,7 +1,17 @@
 @extends('welcome')
 @section('contenido')
+<style>
+    
+    #divTableUsuarios table {
+  border-collapse: collapse;
+}
+
+#divTableUsuarios table,th,td {
+  border: 1px solid #AEF1F9;
+}
+</style>
 <div class="title_left">
-    <h3><i class="fas fa-users"></i> Mantenimiento de Usuarios.</h3>
+    <h3><i class="fas fa-users"></i> Mantenimiento de Usuarios</h3>
 </div>
 <div class="form-group row">
     <div class="col-lg-12 col-md-12">
@@ -30,7 +40,7 @@
             <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: {{$empresa->porcUso}}%" aria-valuenow="{{$empresa->totalUsuario}}" aria-valuemin="0" aria-valuemax="{{$empresa->usuariosPermitidos}}">{{$empresa->porcUso}}%</div>
         </div>
         <div class="col-lg-5 col-md-3 col-sm-3">
-            <button id="btnAgregarUsuario"  style="float: right;" type="button" class="btn btn-round btn-success"><i class="fas fa-user-plus"></i> Agregar nuevo Usuario</button>
+            <button id="btnAgregarUsuario"  style="float: right;background:#3ED8E9;color:#fff" type="button" class="btn btn-round "><i class="fas fa-user-plus"></i> Agregar nuevo Usuario</button>
         </div>     
     </div>
 </div>
@@ -39,7 +49,7 @@
 </div>
 <br>
 <div id="divTableUsuarios" class="x_content">
-<table id="datatable-usuarios" class="table table-striped table-bordered" style="width:100%">
+<table id="datatable-usuarios" class="table table-striped" style="width:100%">
 <thead>
     <tr>
         <th>Id</th>

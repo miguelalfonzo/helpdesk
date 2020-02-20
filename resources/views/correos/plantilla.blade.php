@@ -50,7 +50,7 @@
     <![endif]-->     
     <table bgcolor="#ffffff" class="content" align="center" cellpadding="0" cellspacing="0" border="0">
       <tr>
-        <td bgcolor="#c7d8a7" class="header">
+        <td bgcolor="#3ED8E9" class="header">
           <table width="70" align="left" border="0" cellpadding="0" cellspacing="0">  
             <tr>
               <td height="70" style="padding: 0 20px 20px 0;">
